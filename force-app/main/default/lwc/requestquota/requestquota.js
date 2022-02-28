@@ -11,6 +11,7 @@ import PHONE from '@salesforce/schema/Quote__c.Phone__c';
 import QUOTEREQUESTID from '@salesforce/schema/Quote__c.QuoteRequestId__c';
 import EMAIL from '@salesforce/schema/Quote__c.PersonEmail__c';
 import CAR from '@salesforce/schema/Quote__c.Car__c';
+import test from '@salesforce/schema/task'
 
 export default class Requestquota extends LightningElement {
     //Populates the fields of the lightning record form
@@ -45,4 +46,5 @@ export default class Requestquota extends LightningElement {
         )
     }
     handleSubmit(event) {}
+
 }
